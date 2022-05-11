@@ -1,9 +1,14 @@
-const gifts = [];
+const names = ["Guadalupe", "Ollie", "Aki"];
 
-function writeCards(gifts, )
+function writeCards(names)
 {
-    for(let i=0;i < gifts.length ;i++)
-    {
-        console.log(`Thankyou, ${gifts[i]}for the wonderful birthday gift`)
-    }
+    const thankyouReturn = [];
+
+    for(let i=0;i < names.length ;i++)
+    {   
+        
+        thankyouReturn.push(`Thank you, ${names[i]}, for the wonderful surprise gift!`);
+    }    
+
+    return thankyouReturn;
 }
