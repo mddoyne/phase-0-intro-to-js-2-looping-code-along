@@ -12,3 +12,12 @@ function writeCards(names)
 
     return thankyouReturn;
 }
+
+function countDown(a)
+{
+    while(a > -1)
+    {
+        console.log(a);
+        a--;
+    }
+}
